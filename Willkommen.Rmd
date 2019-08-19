@@ -1,0 +1,24 @@
+---
+title: "Willkommen zum Vorlesungs-Repository"
+author: "Norman Markgraf"
+date: "19.08.2019"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Willkommen zum Vorlesungs-Repository
+
+in diesem GutHub-Repository werde ich meine R Markdown Dokumente nach den Vorlesungen Ihnen, also den Studierenden, zur Verfügung stellen.
+
+Sollte mir im Nachhinein noch etwas einfallen,  wenn etwas ergänzt werden muss oder korrigiert, dann findet das ohne weitere Hinweise genau hier statt.
+
+Viel Spaß
+Norman Markgraf
+(Ihr WM-Dozent)
