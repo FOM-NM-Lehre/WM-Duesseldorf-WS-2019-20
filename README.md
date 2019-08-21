@@ -1,6 +1,6 @@
 ## Willkommen zum Vorlesungs-Repository
 
-In diesem GutHub-Repository finden Sie die in der Veranstaltung von mir erstellten R Markdown Dokumente. Da ich dieses Repository für meinen Austausch zwischen dem Rechner in der Veranstaltung und meinem privaten Rechner zu Hause verwende, hoffe ich das dieses Repository immer auf einem aktuellen Stand ist, da ich in der Regel nach den Veranstaltungen dieses Repository aktuallisiere. Es sollte also für Sie, die Studierenden, immer den aktuellen Stand der Veranstaltung repräsentieren.
+In diesem GitHub-Repository finden Sie die in der Veranstaltung von mir erstellten R Markdown Dokumente. Da ich dieses Repository für meinen Austausch zwischen dem Rechner in der Veranstaltung und meinem privaten Rechner zu Hause verwende, hoffe ich das dieses Repository immer auf einem aktuellen Stand ist, da ich in der Regel nach den Veranstaltungen dieses Repository aktuallisiere. Es sollte also für Sie, die Studierenden, immer den aktuellen Stand der Veranstaltung repräsentieren.
 
 Sollte mir im Nachhinein noch etwas einfallen, wenn etwas ergänzt werden muss oder korrigiert, dann findet das ohne weitere Hinweise genau hier statt.
 
