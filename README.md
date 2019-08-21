@@ -9,7 +9,7 @@ Dieses Repository ist ein Arbeitswerkzeug. Ich erlaube mir also ohne weitere Ank
 Einen Schreibzugriff kann ich Ihnen aus verständlichen Gründen natürlich **nicht** gewähren.
 
 
-### Nutzung dieses Repositories
+### Nutzung dieses Repositories 
 
 Sie können dieses Repository im Prinzip auf zwei Arten nutzen:
 
