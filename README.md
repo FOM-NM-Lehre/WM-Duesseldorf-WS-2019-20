@@ -48,7 +48,7 @@ Zu Kompliziert? -- Dann nutzen Sie bitte die ZIP Dateien aus dem GitHub-Reposito
 Bitte geben Sie, um die Installation abzuschliessen, in der **Console** den folgenden Befehl ein:
 
 ```
-install.packages(c("mosaic", "mosaicCalc", "rmarkdown"))
+install.packages(c("mosaic", "mosaicCalc", "lsr", "rmarkdown", "knitr", "rprojroot", "readxl"))
 ```
 
 In der RStudio Cloud ist *git* in der Regel schon vorinstalliert.
