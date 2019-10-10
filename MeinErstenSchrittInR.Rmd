@@ -1,0 +1,90 @@
+---
+title: "Meine ersten Schritte mit R"
+author: "Norman Markgraf"
+date: "10 10 2019"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(mosaic)
+
+```
+
+## Beispiel Births78
+
+Für die ersten Schritte in R möchten wir mit einem Datensatz aus R selber arbeiten. Um an diesen Datensatz zu gelangen müssen wir wie folgt vorgehen:
+
+
+```{r}
+library(mosaic)
+data(Births78)
+```
+
+Wir möchten uns als ersten Die Geburten für alle Tage in 1978 ansehen:
+
+```{r}
+gf_point(births ~ date, data=Births78)
+```
+
+Wir vermuten, dass die zwei Kurven durch die Wochentage bedingt sind:
+
+```{r}
+gf_point(births ~ date, color = ~ wday, data=Births78)
+```
+
+
+
+
+Ein Blick in die Daten, so wie R sie "sieht", erhalten wir mit dem folgenden Befehl:
+
+```{r}
+inspect(Births78)
+```
+
+Wie viele Kinder sind am 4. Juli geboren worden?
+
+```{r}
+Births78 %>%
+    filter(date == "1978-07-04")
+```
+
+Wie viele Kinder sind am 25. Dezember geboren worden?
+```{r}
+Births78 %>%
+    filter(date == "1978-12-25")
+```
+
+
+Wie sieht das an Sonntagen aus?
+
+
+
+```{r}
+Births78 %>%
+    filter(wday == "Sun") %>%
+    max( )
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
