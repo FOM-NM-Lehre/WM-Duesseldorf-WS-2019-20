@@ -1,13 +1,18 @@
 ---
 title: "Meine ersten Schritte mit R"
 author: "Norman Markgraf"
-date: "10 10 2019"
+date: "10.10.2019"
 output: word_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
+# Wenn Sie hier die Pakete schon einmal "vorladen", 
+# dann bekommen Sie später keine "unnützen Ausgaben" 
+# der Pakete in Ihrem Dokument!
+#
+# Daher:
 library(mosaic)
 
 ```
@@ -35,8 +40,6 @@ gf_point(births ~ date, color = ~ wday, data=Births78)
 ```
 
 
-
-
 Ein Blick in die Daten, so wie R sie "sieht", erhalten wir mit dem folgenden Befehl:
 
 ```{r}
@@ -58,7 +61,6 @@ Births78 %>%
 
 
 Wie sieht das an Sonntagen aus?
-
 
 
 ```{r}
